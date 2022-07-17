@@ -60,7 +60,7 @@ FROM departments AS d
 INNER JOIN dept_manager AS dm
 ON d.dept_no = dm.dept_no;
 
--- Joining retirment_info and dept_emp tables to get current employees who are retirment eligible
+-- Joining retirement_info and dept_emp tables to get current employees who are retirement eligible
 -- Put into new table named curent_emp
 SELECT ri.emp_no,
     ri.first_name,
@@ -76,7 +76,7 @@ WHERE de.to_date = ('9999-01-01');
 SELECT * FROM current_emp
 
 -- Employee count by department number
-SELECT COUNT(ce.emp_no) AS retirment_eligible_count, de.dept_no
+SELECT COUNT(ce.emp_no) AS retirement_eligible_count, de.dept_no
 INTO dept_retirement_count
 FROM current_emp as ce
 LEFT JOIN dept_emp as de
@@ -87,7 +87,7 @@ ORDER BY de.dept_no;
 -- Review dept_retirement_count table output
 SELECT * FROM dept_retirement_count
 
--- Employee Information: A list of retirment eligible employees containing 
+-- Employee Information: A list of retirement eligible employees containing 
     -- Unique employee number
     -- Last name
     -- First name

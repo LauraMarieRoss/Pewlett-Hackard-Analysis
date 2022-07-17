@@ -19,7 +19,7 @@ ORDER BY e.emp_no, t.to_date DESC;
 -- Check table
 SELECT * FROM retirement_titles
 ---------------------------------------------------------------------------
--- Retrieve the following columns from the retirment titles table:
+-- Retrieve the following columns from the retirement titles table:
     -- Employee number
     -- first name
     -- Last name
