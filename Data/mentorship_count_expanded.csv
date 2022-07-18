@@ -1,10 +1,10 @@
-mentor_count,retirement_eligible_count,dept_name
-4601,2597,Customer Service
-16142,9281,Development
-3288,1908,Finance
-3359,1953,Human Resources
-3887,2199,Marketing
-13812,8174,Production
-3767,2234,Quality Management
-4067,2413,Research
-9977,5860,Sales
+mentor_count,retiremement_package_eligible,all_retirement_eligible,dept_name
+4601,2387,5320,Customer Service
+16142,8361,18368,Development
+3288,1697,3759,Finance
+3359,1771,3925,Human Resources
+3887,1987,4392,Marketing
+13812,7417,16172,Production
+3767,2048,4448,Quality Management
+4067,2198,4738,Research
+9977,5252,11336,Sales

@@ -5,8 +5,7 @@
     -- Join both tables on the primary key.
     -- Filter the data on the birth_date column to retrieve the employees who were born between 1952 and 1955.
     -- Order by the employee number. * Also order descending by to-date so newest jobs show first.
-    -- Export the Retirement Titles table from the previous step as retirement_titles.csv
-        --save it to the Data folder in the Pewlett-Hackard-Analysis folder.
+
 
 SELECT e.emp_no, e.first_name, e.last_name, t.title, t.from_date, t.to_date
 INTO retirement_titles
@@ -18,6 +17,9 @@ ORDER BY e.emp_no, t.to_date DESC;
 
 -- Check table
 SELECT * FROM retirement_titles
+-- Export the Retirement Titles table from the previous step as retirement_titles.csv
+    --save it to the Data folder in the Pewlett-Hackard-Analysis folder.
+    
 ---------------------------------------------------------------------------
 -- Retrieve the following columns from the retirement titles table:
     -- Employee number

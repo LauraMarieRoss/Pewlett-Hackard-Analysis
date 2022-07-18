@@ -166,6 +166,7 @@ INNER JOIN dept_emp AS de
 INNER JOIN departments AS d
     ON (de.dept_no = d.dept_no)
 WHERE (d.dept_name = 'Sales')
+    AND (de.to_date = '9999-01-01')
 ORDER BY ce.emp_no;
 
 -- Check dept_info output
@@ -179,13 +180,14 @@ SELECT * FROM sales_info;
     -- Employee last name
 
 SELECT d.dept_name, ce.emp_no, ce.first_name, ce.last_name
--- INTO sales_development_info
+INTO sales_development_info
 FROM current_emp as ce
 INNER JOIN dept_emp AS de
     ON (ce.emp_no = de.emp_no)
 INNER JOIN departments AS d
     ON (de.dept_no = d.dept_no)
 WHERE d.dept_name IN ('Sales','Development')
+    AND (de.to_date = '9999-01-01')
 ORDER BY d.dept_name, ce.emp_no;
 
 -- Check dept_info output

@@ -1,0 +1,39 @@
+employee_count,salary_sum,title,dept_name
+1048,50956117,Staff,Customer Service
+545,26214644,Senior Engineer,Customer Service
+64,3186092,Technique Leader,Customer Service
+22,1105941,Assistant Engineer,Customer Service
+188,9067153,Engineer,Customer Service
+3453,166353370,Senior Staff,Customer Service
+1590,77043501,Technique Leader,Development
+11644,566179536,Senior Engineer,Development
+118,5437543,Staff,Development
+4191,204216909,Engineer,Development
+496,24193118,Assistant Engineer,Development
+329,15261947,Senior Staff,Development
+2884,171739765,Senior Staff,Finance
+875,52067680,Staff,Finance
+2996,134795807,Senior Staff,Human Resources
+929,41609902,Staff,Human Resources
+1037,62714908,Staff,Marketing
+3355,205269709,Senior Staff,Marketing
+3611,176451219,Engineer,Production
+1457,70838863,Technique Leader,Production
+390,18132599,Senior Staff,Production
+426,20670583,Assistant Engineer,Production
+99,4554986,Staff,Production
+10189,497587726,Senior Engineer,Production
+125,5761574,Assistant Engineer,Quality Management
+1051,48741254,Engineer,Quality Management
+398,18368310,Technique Leader,Quality Management
+2874,133584067,Senior Engineer,Quality Management
+1,48077,Manager,Research
+94,4348047,Technique Leader,Research
+244,11912999,Engineer,Research
+664,32272023,Senior Engineer,Research
+21,1002268,Assistant Engineer,Research
+2834,138137418,Senior Staff,Research
+880,43020028,Staff,Research
+2650,185142653,Staff,Sales
+1,71148,Manager,Sales
+8685,604682124,Senior Staff,Sales
